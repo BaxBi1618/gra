@@ -1,0 +1,101 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html,body{width: 100%; height: 100%;}
+
+body{
+    background-image: linear-gradient(to bottom right, #d9ed92,#99d98c, #52b69a, #1a759f);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+#box{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+}
+
+#number-box{
+    background-color:#7f4f24;
+    text-align: center;
+    width: 98%;
+    height: 15%;
+    border-radius: 150px;
+    border: solid 3px black;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    font-size: 30px;
+    color: #fefae0;
+}
+#board{
+    color: #ffff3f;
+    background-color: #007f5f;
+    width: 98%;
+    height: 70%;
+    margin: 0 auto 0 auto;
+    border: solid 2px black;
+}
+.line{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.squer{
+    padding-top: 20px;
+    height: 100%;
+    width: 20%;
+    border: solid 2px black;
+    font-size: 70px;
+    text-align: center;
+}
+#buttons{
+    width: 98%;
+    height: 10%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+#free{
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+#tablica, #liczba{
+    width: 40%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 50px;
+}
+#tablica:hover,#liczba:hover{
+    width: 40%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: lightgrey;
+}
+#text{
+    width: 800px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+#win{
+    position: absolute;
+    color: white;
+    margin-top: -630px;
+    background-color: aqua;
+    height: 400px;
+    width:900px ;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #283618;
+    border: 20px solid #fefae0;
+}
+
+.X_pic{
+    height: 90px;
+    position: absolute;
+    margin-left: -64px;
+}
